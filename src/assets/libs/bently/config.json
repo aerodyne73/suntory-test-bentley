@@ -1,0 +1,8 @@
+{
+	"URLs": [
+	{
+		"alias":"mesh",
+		"scene":"../Scene/mesh.3mx"
+	}
+	]
+}

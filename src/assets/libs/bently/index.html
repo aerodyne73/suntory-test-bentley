@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>acute3d</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no"/>
+
+  <script type="text/javascript" src="script/acute3d.js"></script>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+    .testContainer {
+      width: 600px !important;
+      height: 400px !important;
+      background-color: #eeeeee;
+    }
+  </style>
+</head>
+<body>
+  <div class="testContainer"></div>
+  <script>
+    let sceneURLs = [
+      {
+        "alias": "mesh",
+        "scene": 'https://aerodyne-sumitomo-sg.s3.ap-southeast-1.amazonaws.com/PLTU%20Tanjung%20Jati%20B%205%20and%206/Processed/Bentley/Production_1/Scene/Production_1.3mx'
+      }
+	  ]
+    setTimeout(() => {
+      qx.$$loader.init(sceneURLs, containerID = 'testContainer');
+    }, 3000);
+  </script>
+</body>
+</html>
