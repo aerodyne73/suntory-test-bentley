@@ -53,6 +53,17 @@ npm install
 
 npm start
 
+## Next Steps
+Create a snapshot iModel from your local data.
+Open your snapshot iModel in the desktop-starter app by clicking the home button in the upper left and clicking "Select snapshot".
+
+### Follow tutorials 
+
+to dive deeper into iTwin.js
+iTwin.js Blog
+Last Updated: 16 February, 2021
+
+
 
 
 
